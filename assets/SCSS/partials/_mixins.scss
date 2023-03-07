@@ -1,0 +1,100 @@
+@import './typography';
+@import './variables';
+
+@mixin headingH3 {
+  font-size: 20px;
+  font-family: $font-poppins;
+  font-weight: $font-weight-600;
+  color: $card-heading;
+}
+
+@mixin paraFont {
+  font-weight: $font-weight-400;
+  font-size: $font-size-16;
+  font-family: $font-inter;
+}
+
+@mixin button {
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 1px solid $color-white;
+  font-size: 16px;
+  font-weight: 400;
+  color: $color-white;
+  height: 47px;
+  font-family: $font-poppins;
+}
+
+@mixin center-content {
+  text-align: $text-align-center;
+  font-family: $font-poppins;
+
+  p {
+    color: $center-content-p;
+    font-weight: $font-weight-400;
+    font-size: $font-size-16;
+  }
+
+  h3 {
+    font-size: $font-size-43;
+    font-weight: $font-weight-600;
+  }
+}
+
+@mixin small-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: $color-blue;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@mixin side-img-info {
+  p {
+    font-weight: $font-weight-400;
+    font-size: $font-size-16;
+    color: $navbar-button-color;
+  }
+
+  h1 {
+    font-size: 80px;
+    font-family: $font-poppins;
+    font-weight: 700;
+  }
+
+  div {
+    font-size: 18px;
+    font-family: $font-inter;
+    color: $color-gray;
+    text-align: justify;
+    padding-right: 100px;
+    margin-bottom: 35px;
+  }
+}
+
+@mixin footerList {
+  h2 {
+    color: $color-white;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-bottom: 10px;
+      color: $color-white;
+      font-size: $font-size-16;
+      font-family: $font-inter;
+    }
+  }
+}
