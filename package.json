@@ -9,14 +9,5 @@
   "license": "ISC",
   "dependencies": {
     "node-sass": "^8.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aniketparkhi-angularminds/Landing-Page-SCSS.git"
-  },
-  "bugs": {
-    "url": "https://github.com/aniketparkhi-angularminds/Landing-Page-SCSS/issues"
-  },
-  "homepage": "https://github.com/aniketparkhi-angularminds/Landing-Page-SCSS#readme",
-  "description": ""
+  }
 }
